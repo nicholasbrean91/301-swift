@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created by Nicholas Brean
+// Created on December 22
+// this program lets you pick a rand num between 1-6
+
+// Generates a rand num between 1 and 6
+let computer_num = arc4random_uniform(6) + 1 
+
+// User's input
+let users_input = ask("pick a number between 1 and  6")
+
+
+
+
+
+
+// Process
+if users_input == users_input {
+    
+    show("user is right")
+    
+}else{
+    
+    show("user is wrong")
+}
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 396}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
